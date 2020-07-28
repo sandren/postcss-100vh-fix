@@ -28,7 +28,7 @@ const Index = () => {
       <div
         className={cx(
           isMenuOpen ? 'translate-x-0' : '-translate-x-full',
-          'fixed left-0 top-0 z-50 flex flex-col justify-between w-1/2 h-screen p-8 bg-purple-700 transform transition duration-500 ease-in-out',
+          'fixed left-0 top-0 z-50 flex flex-col justify-between w-4/5 lg:w-1/2 h-screen p-8 bg-purple-700 transform transition duration-500 ease-in-out',
         )}
       >
         <div className='text-white text-center'>
